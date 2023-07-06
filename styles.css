@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0ead6d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins, sans-serif;
+    color: aliceblue;
+}
+
+.chartHolder {
+    background-color: rgb(45, 65, 97);
+    height: 620px;
+    width: 900px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.4);
+    
+}
+
+.chartHolder h1 {
+   margin-top: 16px;  
+   text-align: center;
+}
+
+.chart {
+   display: flex;
+   margin: auto;
+   height: 540px;
+   width: 860px;
+   justify-content: center;
+}
+
+#tooltip {
+    height: auto;
+    width: 156px;
+    margin: auto;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-small;
+    text-decoration: solid;  
+    font-weight: bolder;
+    border-radius: 6px; 
+}
+
+#legend {
+    font-size: x-small;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#x-axis, #y-axis {   
+    font-weight: 800;
+}
+
+circle:hover {
+    fill: rgb(219, 232, 244);
+}
